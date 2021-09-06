@@ -46,9 +46,9 @@ variable "TRAINING_DETAILS"{
   }
 }
 output "training-aws" {
-  value = "aws training - ${var.TRAINING_DETAILS["aws"]}"
+  value = "aws training - ${var.TRAINING_DETAILS["AWS"]}"
 }
 output "training-devps" {
-  value = "devops training - ${var.TRAINING_DETAILS["devops"]}"
+  value = "devops training - ${var.TRAINING_DETAILS["DEVOPS"]}"
 }
 //val
