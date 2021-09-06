@@ -22,3 +22,32 @@ output "number" {
 output "boolen" {
   value = true
 }
+
+variable "TRANING"{
+  default = "devops"
+}
+variable "TRAININGS"{
+  DEFAULT = ["AWS","DEVOPS"]
+}
+
+output "TRANING" {
+  value = "var.TRANING"
+}
+output "first-training" {
+  value = "var.TRAININGS[0]"
+}
+output "second-training" {
+  value = "var.TRAININGS[1]"
+}
+variable "TRAINING_DETAILS"{
+  default = {
+    AWS = "06est"
+    DEVOPS = "08est"
+  }
+}
+output "training-aws" {
+  value = "aws training - ${var.TRAINING_DETAILS["aws"]}"
+}
+output "training-devps" {
+  value = "devops training - ${var.TRAINING_DETAILS["devops"]}"
+}
