@@ -61,3 +61,9 @@ variable "FRUITS" {}
 output "FRUITS" {
   value = var.FRUITS
 }
+
+variable "COUNTRY"{}
+
+output "COUNTRY" {
+  value = "var.COUNTRY"
+}
