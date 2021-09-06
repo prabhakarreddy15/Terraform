@@ -61,7 +61,7 @@ variable "FRUITS" {}
 output "FRUITS" {
   value = var.FRUITS
 }
-
+// VALUE THROUGH CLI
 variable "COUNTRY"{}
 
 output "COUNTRY" {
