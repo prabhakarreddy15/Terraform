@@ -8,7 +8,7 @@ resource "aws_instance" "sample" {
 }
 resource "aws_security_group" "allow_ssh" {
   name                = "allow_ssh"
-  description         = ""
+  description         = "allow-all"
 
 
   ingress{
