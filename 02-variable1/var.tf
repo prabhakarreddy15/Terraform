@@ -67,3 +67,5 @@ variable "COUNTRY"{}
 output "COUNTRY" {
   value = var.COUNTRY
 }
+
+
