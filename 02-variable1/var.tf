@@ -65,5 +65,5 @@ output "FRUITS" {
 variable "COUNTRY"{}
 
 output "COUNTRY" {
-  value = "var.COUNTRY"
+  value = var.COUNTRY
 }
