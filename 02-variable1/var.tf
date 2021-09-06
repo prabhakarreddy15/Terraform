@@ -51,3 +51,4 @@ output "training-aws" {
 output "training-devps" {
   value = "devops training - ${var.TRAINING_DETAILS["devops"]}"
 }
+//val
