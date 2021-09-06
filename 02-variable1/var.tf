@@ -51,4 +51,13 @@ output "training-aws" {
 output "training-devps" {
   value = "devops training - ${var.TRAINING_DETAILS["DEVOPS"]}"
 }
-//val
+
+
+
+// WE CAN CALL VRIABLE BY USING .TFVARS FILE AS BELOW EXAMPLE
+
+variable "FRUITS" {}
+
+output "FRUITS" {
+  value = var.FRUITS
+}
