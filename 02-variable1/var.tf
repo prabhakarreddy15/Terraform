@@ -13,3 +13,12 @@ variable "sample2"{}
 output "sample2"{
   value = var.sample2
 }
+output "string" {
+  value = " gpsa"
+}
+output "number" {
+  value = 2345
+}
+output "boolen" {
+  value = true
+}
