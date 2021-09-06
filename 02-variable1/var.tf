@@ -31,7 +31,7 @@ variable "TRAININGS"{
 }
 
 output "TRANING" {
-  value = "var.TRANING"
+  value = var.TRANING
 }
 output "first-training" {
   value = var.TRAININGS[0]
