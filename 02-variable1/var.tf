@@ -27,7 +27,7 @@ variable "TRANING"{
   default = "devops"
 }
 variable "TRAININGS"{
-  DEFAULT = ["AWS","DEVOPS"]
+  default = ["AWS","DEVOPS"]
 }
 
 output "TRANING" {
