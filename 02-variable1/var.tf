@@ -8,3 +8,8 @@ output "sample1"{
   value = "${var.sample} -from terraform"
 }
 // variable is combined with any other string we have to use ${} interpolation for variable accesing
+variable "sample2"{}
+
+output "sample2"{
+  value = var.sample2
+}
