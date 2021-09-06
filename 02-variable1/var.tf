@@ -34,10 +34,10 @@ output "TRANING" {
   value = "var.TRANING"
 }
 output "first-training" {
-  value = "var.TRAININGS[0]"
+  value = var.TRAININGS[0]
 }
 output "second-training" {
-  value = "var.TRAININGS[1]"
+  value = var.TRAININGS[1]
 }
 variable "TRAINING_DETAILS"{
   default = {
